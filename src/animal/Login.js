@@ -1,5 +1,7 @@
+import { useState } from "react";
+
 function Login(){
-    const [email, setEmail] = useState('');
+    const [email, setEmail] = useState("");
     const [pass, setPass] = useState('');
     const [errorEmail, setErrorEmail] = useState('');
     const [errorPass, setErrorPass] = useState('');
